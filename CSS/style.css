@@ -1,0 +1,60 @@
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #777;
+}
+
+nav ul {
+	float: right;
+	list-style-type: none;	
+}
+
+nav ul li {
+	float: right;
+	margin-left: 1em;
+}
+
+nav ul li a,
+nav ul li a:link,
+nav ul li a:visited,
+nav ul li a:active,
+nav ul li a:hover {
+	color: #fefefe;
+}
+
+section {
+	height: 400px;
+	padding-top: 50.4px;
+}
+
+section:first-of-type {
+	margin-top: 50.4px;
+}
+
+h1 {
+	margin-top: 0;
+}
+#introduction {
+	background-color: #66dd99;
+}
+
+#demonstration {
+	background-color: #dddd99;
+}
+
+#ending {
+	background-color: #ee9966;
+}
+
+.clearfix::after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
